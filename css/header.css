@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+.cabecalho-margin {
+    margin-top: 3rem;
+}
+
+.cabecalho-paragrafo {
+    font-size: 1.7rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.cabecalho-titulo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    color: white;
+}
+
+.texto-maquina-escrever {
+    overflow: hidden;
+    /* esconde todo o texto antes da animação */
+    white-space: nowrap;
+    /* mantém todo o texto em uma linha */
+    animation:
+        escrever 2.5s steps(40, end) infinite;
+    /* tempo de animação e quantos caracteres devem ser mostrados em cada etapa */
+}
+
+@keyframes escrever {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 180%;
+    }
+}
+
+
+.cabecalho-sub-titulo {
+    font-size: 1.3rem;
+    color: #7B797C;
+    padding: 5px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho-cv {
+    width: 4;
+    color: #fff;
+    background-color: #552586;
+    border-radius: 2rem;
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid #552586;
+    cursor: pointer;
+}
+
+.zoom-effect-cabecalho-cv {
+    transition: transform 1s ease;
+    filter: brightness(100%);
+
+}
+
+.zoom-effect-cabecalho-cv:hover {
+    transform: scale(1.1);
+    filter: brightness(70%);
+
+}
+
+.cabecalho-input-redes-sociais {
+    color: #fff;
+    box-shadow: 2px 2px 5px #00000094;
+    border-radius: 0.7rem;
+}
+
+.img-cabecalho {
+    width: 360px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.animation-bounce {
+    animation: bounce 2s linear infinite;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+
+    35% {
+        transform: translateY(-20px);
+    }
+
+    70% {
+        transform: translateY(+20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}

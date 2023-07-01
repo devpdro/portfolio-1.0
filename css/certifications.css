@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+.margin-certificacoes-titulo {
+    padding-top: 4rem;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2.3rem;
+    text-transform: uppercase;
+
+}
+
+.margin-certificacoes-card {
+    margin-top: 4.5rem;
+    margin-bottom: 8rem;
+}
+
+.img-card-oculta {
+    display: none;
+}
+
+.card-estilo {
+    background-color: #13131F;
+    height: 27rem;
+    overflow: hidden;
+}
+
+.card span:first-of-type {
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right, transparent, #552586);
+    animation: animar1 2s linear infinite;
+}
+
+@keyframes animar1 {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+
+}
+
+.card span:nth-of-type(2) {
+    display: inline;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent, #552586);
+    animation: animar2 2s linear infinite;
+    animation-delay: 1s;
+}
+
+@keyframes animar2 {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(100%);
+    }
+
+}
+
+
+.card span:nth-of-type(3) {
+    display: inline;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to left, transparent, #552586);
+    animation: animar3 2s linear infinite;
+}
+
+@keyframes animar3 {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+
+}
+
+.card span:nth-of-type(4) {
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(to top, transparent, #552586);
+    animation: animar4 2s linear infinite;
+    animation-delay: 1s;
+}
+
+@keyframes animar4 {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(-100%);
+    }
+
+}
+
+
+.card-titulo {
+    color: #552586;
+    font-size: 1.4em;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.card-paragrafo {
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    font-size: 0.8rem;
+    color: #7B797C;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-span {
+    color: #fff;
+    font-size: 0.9rem;
+    font-family: 'Poppins', sans-serif;
+}

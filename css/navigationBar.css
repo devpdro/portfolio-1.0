@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+.barra-de-navegacao {
+    margin-right: 1.2rem;
+    color: white !important;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.barra-de-navegacao-habilidades {
+    margin-right: 0rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    color: white !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.underline-animation {
+    position: relative;
+}
+
+.underline-animation:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to left, #552586, #A046FA, #7F38C7);
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.7s ease-in-out 0s;
+
+}
+
+.underline-animation:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+
+}
+
+.borda-barra-de-navegacao {
+    border-bottom: 1px solid #552586;
+}
+
+.icon-hamburguer {
+    color: #552586;
+    font-size: 1.8rem
+}

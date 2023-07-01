@@ -1,0 +1,473 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 501px) and (max-width:578px) {
+
+
+    .inicio {
+        padding-top: 2rem !important;
+    }
+
+    .barra-de-navegacao {
+        margin-right: 1.2rem;
+        color: white !important;
+        margin-top: 0rem !important;
+        margin-bottom: 2rem;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .barra-de-navegacao-habilidades {
+        margin-right: 1rem !important;
+        margin-top: 0rem !important;
+        margin-bottom: 2rem;
+        color: white !important;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    ul {
+        text-align: center;
+    }
+
+    /*CABECALHO*/
+
+    cabecalho-margin {
+        margin-top: 5rem;
+
+    }
+
+    .cabecalho-paragrafo {
+        font-size: 1.7rem !important;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        margin-left: 0.5rem !important;
+        margin-top: 1rem;
+    }
+
+    .cabecalho-titulo {
+        font-family: 'Poppins', sans-serif;
+        font-size: 2rem !important;
+        color: white;
+        margin-left: 7rem !important;
+    }
+
+    .cabecalho-sub-titulo {
+        font-size: 1.2rem !important;
+        color: #7B797C;
+        padding: 5px 0;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        margin-left: 1.7rem !important;
+    }
+
+    .icon-change-background {
+        font-size: 2rem;
+        color: #552586 !important;
+        cursor: pointer;
+    }
+
+    .cabecalho-input-redes-sociais {
+        color: #fff;
+        box-shadow: 2px 2px 5px #00000094;
+        border-radius: 0.7rem;
+        margin-left: 12.7rem;
+    }
+
+    .paragrafo-center-btn {
+        text-align: center;
+    }
+
+    /* SOBRE MIM  */
+
+    .sobre-mim-box {
+        background-color: #09090B;
+        border: 1px solid #808080a2;
+        border-radius: 0.7rem;
+        margin-top: 7rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .sobre-mim-margin {
+        margin-top: 2.4rem;
+        margin-bottom: 2.4rem;
+    }
+
+    .img-celular {
+        display: none;
+    }
+
+    .sobre-mim-titulo {
+        font-family: 'Press Start 2P', cursive;
+        margin-right: 17rem !important;
+        text-transform: uppercase;
+        font-size: 1.8rem !important;
+        margin-bottom: 1.5rem;
+        margin-left: 1rem
+    }
+
+    .sobre-mim-paragrafo {
+        font-family: 'Poppins', sans-serif;
+        text-indent: 2rem;
+        font-size: 1.2rem !important;
+        margin-bottom: 2rem;
+        margin-right: 2rem;
+        margin-left: 1rem
+    }
+
+    .sobre-mim-segundo-paragrafo {
+        text-indent: 2rem;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.2rem !important;
+        margin-right: 2rem;
+        margin-left: 1rem
+    }
+
+    /* -------- PROJETOS -------- */
+
+    .margin-projetos {
+        margin-top: 8.4rem;
+        margin-bottom: 4.4rem;
+        margin-left: 1.4rem;
+    }
+
+    .projetos-titulo {
+        font-family: 'Press Start 2P', cursive;
+        font-size: 1.7rem !important;
+        text-transform: uppercase;
+        margin-right: 3.7rem !important;
+    }
+
+    .box-projetos {
+        height: 13rem;
+        border: 3px solid #552586;
+        box-shadow: 2px 3px 7px #5525865d;
+        background-color: #09090B;
+        margin-top: 5.2rem;
+    }
+
+    .box-projetos-titulo {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.7rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+
+    .box-projetos-subtitulo {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1rem;
+        margin-top: 1.2rem;
+        margin-left: 1rem;
+        padding-bottom: 0;
+    }
+
+    .box-projetos-link {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5rem;
+        margin-left: 1rem;
+        color: #552586;
+        text-shadow: 2px 2px 5px #5525865d;
+    }
+
+    .box-projetos-link-imovi-row {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 90% !important;
+    }
+
+    .visualizar-projeto {
+        margin-top: 0.8rem !important;
+    }
+
+    .box-projetos-link-login {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 90% !important;
+    }
+
+    .borda-animada {
+        position: relative;
+        display: inline-block;
+    }
+
+    .borda-animada::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -2px;
+        width: 0;
+        height: 2px;
+        background: linear-gradient(to left, #7F38C7, #552586, transparent);
+        transition: width 0.3s ease-in-out;
+    }
+
+    .borda-animada:hover::after {
+        width: 100%;
+    }
+
+    .box-projetos-link-menores {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5rem;
+        margin-left: 1rem;
+        color: #552586;
+        margin-top: 1.4rem;
+        text-shadow: 2px 2px 5px #5525865d;
+    }
+
+    .box-projetos-centro {
+        display: block;
+    }
+
+    .input-opacidade {
+        opacity: 0.8;
+    }
+
+    .input-ver-mais {
+        color: #fff;
+        background-color: #552586;
+        border-radius: 2rem;
+        padding: 0.4rem 6rem;
+        font-size: 1rem;
+        margin-right: 3.2rem;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .repositorio-git-hub {
+        font-size: 1rem;
+        font-family: 'Cabin', sans-serif, monospace;
+        text-transform: uppercase;
+        margin-top: 3.4rem;
+        margin-right: 3.2rem;
+    }
+
+    /*HABILIDADES*/
+
+    .margin-habilidades {
+        padding: 6.4rem;
+        padding-bottom: 5.4rem;
+    }
+
+    .titulo-habilidades {
+        font-family: 'Press Start 2P', cursive;
+        text-transform: uppercase;
+        font-size: 1.6rem !important;
+        width: 100%;
+        text-align: center;
+        margin-right: 3rem !important;
+    }
+
+    .box-habilidades-margin-top {
+        margin-top: 5rem !important;
+    }
+
+    .box-habilidades-margin-top-segunda-row {
+        margin-top: 1.7rem;
+    }
+
+    .box-habilidades {
+        height: 7rem;
+        margin-top: 2rem;
+        background-color: #13131F;
+        opacity: 0.5;
+        border-radius: 0.3rem 0 1.5rem 0;
+        box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.623);
+    }
+
+    .box-habilidades-script {
+        margin-right: 1.2rem !important;
+    }
+
+    .box-habilidades-margin-right {
+        margin-right: 1.2rem !important;
+    }
+
+    .paragrafo-habilidades {
+        margin-top: 3.4rem;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .imagem-animada-html {
+        position: relative;
+        display: inline-block;
+    }
+
+    .imagem-animada-html::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        opacity: 0;
+        border: 2px solid #E67600;
+        box-shadow: 1px 1px 3px #E67600;
+        transition: opacity 0.3s ease-out;
+    }
+
+    .imagem-animada-html:hover::before {
+        opacity: 1;
+    }
+
+    .imagem-animada-css {
+        position: relative;
+        display: inline-block;
+    }
+
+    .imagem-animada-css::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        opacity: 0;
+        border: 2px solid #1693F9;
+        box-shadow: 1px 1px 3px #1693F9;
+        box-sizing: border-box;
+        transition: opacity 0.3s ease-out;
+    }
+
+    .imagem-animada-css:hover::before {
+        opacity: 1;
+    }
+
+    .imagem-animada-boot {
+        position: relative;
+        display: inline-block;
+    }
+
+    .imagem-animada-boot::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        opacity: 0;
+        border: 2px solid #7935B1;
+        box-shadow: 1px 1px 3px #7935b1cc;
+        box-sizing: border-box;
+        transition: opacity 0.3s ease-out;
+    }
+
+    .imagem-animada-boot:hover::before {
+        opacity: 1;
+    }
+
+    .imagem-animada-script {
+        position: relative;
+        display: inline-block;
+    }
+
+    .imagem-animada-script::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        opacity: 0;
+        border: 2px solid #D6E91B;
+        box-shadow: 1px 1px 3px #D6E91B;
+        box-sizing: border-box;
+        transition: opacity 0.3s ease-out;
+    }
+
+    .imagem-animada-script:hover::before {
+        opacity: 1;
+    }
+
+    .imagem-animada-git {
+        position: relative;
+        display: inline-block;
+    }
+
+    .imagem-animada-git::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        opacity: 0;
+        border: 2px solid #f4511e;
+        box-shadow: 1px 1px 3px #f4501e96;
+        box-sizing: border-box;
+        transition: opacity 0.3s ease-out;
+    }
+
+    .imagem-animada-git:hover::before {
+        opacity: 1;
+    }
+
+    .imagem-animada-github {
+        position: relative;
+        display: inline-block;
+    }
+
+    .imagem-animada-github::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        opacity: 0;
+        border: 2px solid #D7E4E7;
+        box-shadow: 1px 1px 3px #D7E4E7;
+        box-sizing: border-box;
+        transition: opacity 0.3s ease-out;
+    }
+
+    .imagem-animada-github:hover::before {
+        opacity: 1;
+    }
+
+    .img-icones {
+        height: 100%;
+        filter: brightness(100%) saturate(0%) hue-rotate(200deg);
+    }
+
+    .img-icones:hover {
+        filter: brightness(100%) saturate(100%) hue-rotate(10deg);
+        background-color: #13131F;
+        opacity: 1;
+    }
+
+    .zoom-background {
+        transition: transform 0.8s ease;
+        filter: brightness(100%);
+        filter: brightness(100%) saturate(0%) hue-rotate(200deg) opacity(1);
+    }
+
+    .zoom-background:hover {
+        transform: scale(0.9);
+    }
+
+    /*CERTIFICAÇÕES*/
+
+    .margin-certificacoes-titulo {
+        padding-top: 4rem;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 1.6rem !important;
+        text-transform: uppercase;
+
+    }
+
+    /*CONTATOS*/
+
+    .margin-contatos {
+        padding-top: 4.4rem;
+    }
+
+    .margin-subtitulo {
+        margin-top: 6rem !important;
+    }
+
+    .titulo-contatos {
+        margin-top: 2rem;
+        font-size: 1.7rem !important;
+        text-transform: uppercase;
+        font-family: 'Press Start 2P', cursive;
+    }
+
+    .contatos-margin-top {
+        margin-top: 2rem;
+    }
+}

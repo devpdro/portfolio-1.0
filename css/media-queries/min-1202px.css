@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1202px) {
+
+    .flex {
+        display: flex !important;
+        flex-direction: row !important;
+    }
+}

@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+.sobre-mim-box {
+    background-color: #09090B;
+    border: 1px solid #808080a2;
+    border-radius: 0.7rem;
+    margin-top: 7rem;
+}
+
+.sobre-mim-margin {
+    margin-top: 2.4rem;
+    margin-bottom: 2.4rem;
+}
+
+.sobre-mim-titulo {
+    font-family: 'Press Start 2P', cursive;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    margin-bottom: 1.5rem;
+    margin-left: 1rem
+}
+
+.sobre-mim-paragrafo {
+    font-family: 'Poppins', sans-serif;
+    text-indent: 2rem;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    margin-left: 1rem
+}
+
+.sobre-mim-segundo-paragrafo {
+    text-indent: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    margin-right: 2rem;
+    margin-left: 1rem
+}

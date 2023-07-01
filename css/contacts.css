@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+.margin-contatos {
+    padding-top: 4.4rem;
+
+}
+
+.margin-subtitulo {
+    margin-top: 7rem;
+}
+
+.titulo-contatos {
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.icone-redes-contatos {
+    color: #552586;
+}
+
+.zoom-effect-contatos {
+    transition: transform 1s ease;
+    filter: brightness(100%);
+
+}
+
+.zoom-effect-contatos:hover {
+    transform: scale(1.2);
+    filter: brightness(70%);
+
+}
+
+.subtitulo-contatos {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1rem;
+}
+
+.paragrafo-contatos {
+    color: #7B797C;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+}
+
+.btn-cv {
+    color: #fff;
+    background-color: #552586;
+    border-radius: 2rem;
+    padding: 0.4rem 6rem;
+    font-size: 1rem;
+    margin-top: 6.7rem;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7rem;
+    border: 1px solid #552586;
+    font-family: 'Poppins', sans-serif;
+}
+
+.zoom-effect-contatos-cv {
+    transition: transform 1s ease;
+    filter: brightness(100%);
+
+}
+
+.zoom-effect-contatos-cv:hover {
+    transform: scale(1.2);
+    filter: brightness(70%);
+}

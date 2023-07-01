@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 991px) and (max-width: 1201px) {
+
+    .inicio {
+        padding-top: 2rem !important;
+    }
+
+    .barra-de-navegacao {
+        margin-right: 1.2rem;
+        color: white !important;
+        margin-top: 0rem !important;
+        margin-bottom: 2rem;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .barra-de-navegacao-habilidades {
+        margin-right: 1rem !important;
+        margin-top: 0rem !important;
+        margin-bottom: 2rem;
+        color: white !important;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    ul {
+        text-align: center;
+    }
+
+    .icon-change-background {
+        font-size: 2rem;
+        color: #552586 !important;
+        cursor: pointer;
+    }
+
+    /*PROJETOS*/
+
+    .box-projetos {
+        height: 19rem !important;
+        border: 3px solid #552586;
+        box-shadow: 2px 3px 7px #5525865d;
+        background-color: #09090B;
+        margin-top: 5.2rem;
+        width: 100%;
+    }
+
+    .visualizar-projeto-box1-margin {
+        margin-top: 3.3rem !important;
+    }
+
+    .visualizar-projeto-box2-margin {
+        margin-top: 2rem !important;
+    }
+
+    /*SOBRE MIM*/
+
+    .img-celular {
+        height: 92%;
+    }
+
+    .box-visualizar-finans {
+        margin-top: 2rem !important;
+    }
+
+    .flex {
+        display: flex !important;
+        flex-direction: row !important;
+    }
+
+    /*AJEITANDO NA ABA PROJETOS*/
+
+    .galleria-fotos {
+        margin-top: 3rem !important;
+    }
+
+    .spotify {
+        margin-bottom: 6.5rem !important;
+    }
+
+    .pizarria {
+        margin-top: 5rem !important;
+    }
+
+    .mini-blog {
+        margin-top: 5rem !important;
+    }
+}

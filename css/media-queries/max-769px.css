@@ -1,0 +1,204 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 579px) and (max-width: 769px) {
+
+    .inicio {
+        padding-top: 2rem !important;
+    }
+
+    .barra-de-navegacao {
+        margin-right: 1.2rem;
+        color: white !important;
+        margin-top: 0rem !important;
+        margin-bottom: 2rem;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .barra-de-navegacao-habilidades {
+        margin-right: 1rem !important;
+        margin-top: 0rem !important;
+        margin-bottom: 2rem;
+        color: white !important;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    ul {
+        text-align: center;
+    }
+
+    .icon-change-background {
+        font-size: 2rem;
+        color: #552586 !important;
+        cursor: pointer;
+    }
+
+    /*CABECALHO*/
+
+    .cabecalho-paragrafo {
+        font-size: 1.7rem !important;
+        font-family: 'Poppins', sans-serif;
+        margin-left: 12rem;
+        margin-top: 1rem;
+    }
+
+    .cabecalho-titulo {
+        font-family: 'Poppins', sans-serif;
+        font-size: 2rem !important;
+        color: white;
+        margin-left: 7rem;
+    }
+
+    .cabecalho-sub-titulo {
+        font-size: 1.2rem !important;
+        color: #7B797C;
+        padding: 5px 0;
+        font-family: 'Poppins', sans-serif;
+        margin-left: 8.4rem;
+    }
+
+    .cabecalho-input-redes-sociais {
+        color: #fff;
+        box-shadow: 2px 2px 5px #00000094;
+        border-radius: 0.7rem;
+        margin-left: 12.9rem;
+    }
+
+    .paragrafo-center-btn {
+        text-align: center;
+    }
+
+    /*SOBRE MIM*/
+
+    .sobre-mim-box {
+        background-color: #09090B;
+        border: 1px solid #808080a2;
+        border-radius: 0.7rem;
+        margin-top: 7rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .sobre-mim-margin {
+        margin-top: 2.4rem;
+        margin-bottom: 2.4rem;
+    }
+
+    .img-celular {
+        display: none;
+    }
+
+    .sobre-mim-titulo {
+        font-family: 'Press Start 2P', cursive;
+        margin-right: 19rem !important;
+        text-transform: uppercase;
+        font-size: 1.8rem !important;
+        margin-bottom: 1.5rem;
+        margin-left: 1rem
+    }
+
+    .sobre-mim-paragrafo {
+        font-family: 'Poppins', sans-serif;
+        text-indent: 2rem;
+        font-size: 1.2rem !important;
+        margin-bottom: 2rem;
+        margin-right: 2rem;
+        margin-left: 1rem
+    }
+
+    .sobre-mim-segundo-paragrafo {
+        text-indent: 2rem;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.2rem !important;
+        margin-right: 2rem;
+        margin-left: 1rem
+    }
+
+    /*PROJETOS*/
+
+    .margin-projetos {
+        margin-top: 8.4rem;
+        margin-bottom: 4.4rem;
+        padding-left: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+    }
+
+    .box-projetos-link-imovi-row {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 90% !important;
+    }
+
+    .visualizar-projeto {
+        margin-top: 0.8rem !important;
+    }
+
+    .box-projetos-link-login {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 90% !important;
+    }
+
+    .input-ver-mais {
+        color: #fff;
+        background-color: #552586;
+        border-radius: 2rem;
+        padding: 0.4rem 6rem;
+        font-size: 1rem;
+        margin-right: 3.2rem;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .repositorio-git-hub {
+        font-size: 1rem;
+        font-family: 'Cabin', sans-serif, monospace;
+        text-transform: uppercase;
+        margin-top: 3.4rem;
+        margin-right: 3.2rem;
+    }
+
+    /*HABILIDADES*/
+
+    .titulo-habilidades {
+        font-family: 'Press Start 2P', cursive;
+        text-transform: uppercase;
+        font-size: 1.9rem !important;
+        text-align: left !important;
+    }
+
+    .box-habilidades {
+        height: 7rem;
+        margin-top: 2rem;
+        background-color: #13131F;
+        opacity: 0.5;
+        border-radius: 0.3rem 0 1.5rem 0;
+        box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.623);
+    }
+
+    .box-habilidades-script {
+        margin-right: 1.2rem !important;
+    }
+
+    /*CERTIFICAÇÕES*/
+
+    .margin-certificacoes-titulo {
+        padding-top: 4rem;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 2rem !important;
+        text-transform: uppercase;
+    }
+
+    /*CONTATOS*/
+
+    .titulo-contatos {
+        margin-top: 2rem;
+        font-size: 2rem !important;
+        text-transform: uppercase;
+        font-family: 'Press Start 2P', cursive;
+    }
+}
