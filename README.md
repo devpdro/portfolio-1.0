@@ -26,3 +26,5 @@ git clone https://github.com/devpdro/project-portfolio.git
 ```bash
 cd project-portfolio
 ```
+
+Made with ❤️ by Victor Hugo 👋
